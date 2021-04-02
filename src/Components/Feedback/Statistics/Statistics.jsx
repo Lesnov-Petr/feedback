@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-import NoFeedback from "../NoFeedback/NoFeedback";
+import Notification from "../Notification/Notification";
 import "./index.scss";
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return total === 0 ? (
-    <NoFeedback />
+    <Notification message="No feedback given" />
   ) : (
     <>
       <p className="evaluation">Good: {good}</p>
