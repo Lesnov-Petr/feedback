@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "./Section/Section";
-import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
-import Statistics from "./Statistics/Statistics";
+import Section from "./Section";
+import FeedbackOptions from "./FeedbackOptions";
+import Statistics from "./Statistics";
 
 class Feedback extends React.Component {
   state = {
